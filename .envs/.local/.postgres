@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=restaurant
+POSTGRES_USER=gbZFdDdsVTndcVGXRfpswjPbuihuZXdm
+POSTGRES_PASSWORD=oIxGoHn2rXHAs0xhqCzdrhqEWAljtQvJ1b8cKsm9fg6kdFPh14xNc8tbmAFRkBDg
