@@ -1,9 +1,11 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
 from .models import Product
 
 # Create your views here.
 
 
-def showproducts(request):
-    products = Product.objects.all()
-    return render(request, 'products/product_list.html', {'products': products})
+class HomeView(TemplateView):
+    template_name = "products/home.html"
+
+
+home_view = HomeView.as_view()
